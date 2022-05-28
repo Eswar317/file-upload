@@ -121,9 +121,6 @@ app.get('/adminhostel', (req,res) => {
 //     },
 // });
 // const fileStorage = multer.diskStorage({
-    // destination: (req, file, callBack) => {
-    //     callBack(null, './uploads')
-    // },
 //     destination: 'uploads',
 //     filename: (req, file, callBack) => {
 //         callBack(null, Date.now() + '-' + file.originalname);
